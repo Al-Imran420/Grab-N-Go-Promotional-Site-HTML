@@ -41,7 +41,12 @@
     font-weight: bold;
     font-style: normal;
 }
-
+.contact_submit{
+  background: #ffffff !important;
+  margin-top: 15px;
+  padding: 0 !important;
+  font-size: 20px;
+}
 body{
 	font-family: 'Cardenio Modern', 'Archer' !important;
 	font-weight: bold;

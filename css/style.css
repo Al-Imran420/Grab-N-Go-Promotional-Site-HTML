@@ -486,6 +486,12 @@ body, html {
   padding: 25px 25px 25px 80px;
   margin: 15px 0;
 }
+.kv_0{
+	min-height: 512px;
+	background: url(../images/full_market_place_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .kv_1{
 	min-height: 178px;
 	background: url(../images/kc_1.png);
@@ -546,6 +552,155 @@ body, html {
 .kiosks_video img{
   width: 100%;
   float: left;
+}
+.kv_0 p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 25px;
+    font-family: 'Archer';
+    font-weight: normal;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.kv_0 h6{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 50px;
+    font-family: 'Archer';
+    font-weight: normal;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.kiosk_price{
+  width: 185px !important;
+  height: 94px !important;
+  position: absolute;
+	background: url(../images/kiosk_price_bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  left: -25px !important;
+  top: -35px !important;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 90px;
+  text-align: center;
+}
+.kiosk_market{
+  width: 185px !important;
+  height: 94px !important;
+  position: absolute;
+  background: none !important;
+  right: 0px !important;
+  left: inherit !important;
+  top: 0px !important;
+  color: #7f392d;
+  font-size: 36px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.kiosk_feture1{
+  width: 143px !important;
+  height: 69px !important;
+  background: url(../images/kiosk_f1.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  color: #3a9ad6;
+  font-size: 20px;
+  text-align: left;
+  position: relative !important;
+  float: left;
+  top: 0!important;
+  line-height: 56px;
+  padding-left: 20px;
+}
+.kiosk_feture2{
+  width: 304px !important;
+  height: 69px  !important;
+	background: url(../images/kiosk_f2.png) !important;
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+  background-size: cover ;
+  color: #3a9ad6;
+  font-size: 20px;
+  text-align: left;
+  position: relative !important;
+  float: left;
+  top: 0!important;
+  line-height: 56px;
+  padding-left: 20px;
+}
+.kiosk_feture3{
+  width: 143px !important;
+  height: 69px  !important;
+	background: url(../images/kiosk_f3.png) !important;
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+  background-size: cover ;
+  color: #3a9ad6;
+  font-size: 20px;
+  text-align: left;
+  position: relative !important;
+  float: left;
+  top: 0!important;
+  line-height: 56px;
+  padding-left: 20px;
+}
+.kiosk_feture4{
+  width: 275px !important;
+  height: 69px  !important;
+	background: url(../images/kiosk_f4.png) !important;
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+  background-size: cover ;
+  color: #3a9ad6;
+  font-size: 20px;
+  text-align: left;
+  position: relative !important;
+  float: left;
+  top: 0!important;
+  line-height: 56px;
+  padding-left: 20px;
+}
+.kiosk_feture5{
+  width: 150px !important;
+  height: 69px  !important;
+	background: url(../images/kiosk_f5.png) !important;
+  background-repeat: no-repeat !important;
+  background-position-y: center !important;
+  background-size: cover ;
+  color: #3a9ad6;
+  font-size: 20px;
+  text-align: left;
+  position: relative !important;
+  float: left;
+  top: 0!important;
+  line-height: 56px;
+  padding-left: 20px;
+}
+.kiosk_feture{
+    padding-left: 0px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.kiosk_feture li{
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    list-style: none;
+    background-position-y: center;
+    /* line-height: 30px; */
+    padding-left: 30px;
+    color: #7f392d;
+    font-size: 20px;
+    font-family: 'Archer';
+    font-weight: normal;
+    width: 100%;
+    float: left;
+    height: 60px;
 }
 /*End Kioisk Section*/
 
